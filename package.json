@@ -1,0 +1,34 @@
+{
+	"name": "whatsapp-chatgpt",
+	"version": "1.0.0",
+	"description": "Whatsapp bot that uses OpenAI's GPT & DALLE to respond to user inputs",
+	"main": "src/index.ts",
+	"author": "Askrella Software Agency UG (haftungsbeschränkt)",
+	"scripts": {
+		"start": "npx vite-node src/index.ts",
+		"prettier": "prettier --write ./src"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"aws-sdk": "^2.1467.0",
+		"chatgpt": "^5.2.5",
+		"debounce": "^2.0.0",
+		"dotenv": "^16.3.1",
+		"fb-chat-api-temp": "github:ntkhang03/fb-chat-api-temp",
+		"fetch-blob": "^4.0.0",
+		"ffmpeg": "^0.0.4",
+		"fluent-ffmpeg": "^2.1.2",
+		"langchain": "^0.0.156",
+		"openai": "^3.3.0",
+		"picocolors": "^1.0.0",
+		"qrcode": "^1.5.3",
+		"whatsapp-web.js": "^1.23.0"
+	},
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"devDependencies": {
+		"@types/qrcode": "^1.5.2",
+		"prettier": "^3.0.3"
+	}
+}
